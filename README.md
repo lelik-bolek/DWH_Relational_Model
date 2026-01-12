@@ -25,19 +25,23 @@ DWH_Relational_Model/
 ├── 0NF/
 │   ├── data.csv               # Исходные данные для 0НФ
 │   ├── 0NF.sql                # Создание и вставка данных в 0НФ
-│   └── Description_0NF.md     # Описание структуры данных 0НФ
+│   ├── Description_0NF.md     # Описание структуры данных 0НФ
+│   └── courses_0nf.jpg        # Диаграмма данных
 │
 ├── 1NF/
 │   ├── 1NF.sql
-│   └── Description_1NF.md
+│   ├── Description_1NF.md     # Описание необходимых преобразований
+│   └── courses_0nf.jpg        # Диаграмма данных
 │
 ├── 2NF/
 │   ├── 2NF.sql
-│   └── Description_2NF.md
+│   ├── Description_2NF.md     # Описание необходимых преобразований
+│   └── courses_0nf.jpg        # Диаграмма данных
 │
 ├── 3NF/
 │   ├── 3NF.sql
-│   └── Description_3NF.md
+│   ├── Description_3NF.md     # Описание необходимых преобразований
+│   └── courses_0nf.jpg        # Диаграмма данных
 │
 └── 3NF_SCD2/
     ├── DDL_3NF_SCD2.sql                 # Создание всех таблиц с историчностью
@@ -45,7 +49,8 @@ DWH_Relational_Model/
     ├── update_cities_3nf_scd2.sql       # Полное обновление городов
     ├── update_teachers_3nf_scd2.sql     # Полное обновление преподавателей
     ├── update_courses_3nf_scd2.sql      # Полное обновление курсов
-    └── Description_3NF.txt              # Описание структуры 3НФ с историчностью
+    ├── Description_3NF.txt      		 # Описание необходимых преобразований
+    └── courses_0nf.jpg        			 # Диаграмма данных	
 ```
 ## Используемые технологии
 - PostgreSQL (DDL и DML скрипты)
